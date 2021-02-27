@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web application created using create-react-app unicorn template"
+    />
+	<link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="%PUBLIC_URL%/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>DappStarter - Decentology</title>
+    <style>
+      body {
+        color: #212121;
+        font-family: 'Cabin', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #10264c;
+      }
+
+      body a {
+        color: #707070;
+      }
+
+      header,
+      main {
+        margin: 0 24px;
+        width: calc(100vw - 48px);
+      }
+
+      header {
+        color: white;
+        display: flex;
+        font-size: 0.875rem;
+        justify-content: space-between;
+        align-items: center;
+        height: 72px;
+      }
+
+      header a {
+        color: #e6e6e6;
+      }
+
+      header h1 {
+        font-size: 0.875rem;
+        letter-spacing: 0.05em;
+        width: 245px;
+      }
+
+      header h1 span {
+        color: rgba(255, 255, 255, 0.75);
+        font-weight: normal;
+        margin-left: 8px;
+        letter-spacing: normal;
+      }
+
+      header nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 140px;
+      }
+
+      header nav ul li {
+        border-radius: 3px;
+        margin: 0 12px;
+      }
+
+      header nav ul li:hover {
+        background: rgba(0, 0, 0, 0.35);
+      }
+
+      header nav ul li.active {
+        background: white;
+      }
+
+      header nav ul li.active button {
+        color: #10264c;
+        text-decoration: none;
+      }
+
+      .svg-icon {
+        color: currentColor;
+        display: block;
+      }
+
+      header nav ul li button {
+        display: block;
+        padding: 8px;
+      }
+
+      header .account {
+        display: flex;
+        align-items: center;
+        width: 245px;
+      }
+
+      .avatar {
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+      }
+
+      .avatar > img {
+        display: block;
+      }
+
+      header .account > div {
+        display: flex;
+        width: 210px;
+      }
+
+      header .account > div > div {
+        display: flex;
+        flex-direction: column;
+        padding: 0 18px;
+      }
+
+      main {
+        background: white;
+        border-radius: 3px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16);
+        height: calc(100vh - 72px - 24px);
+        width: calc(100vw - 48px);
+      }
+
+      main .main-header {
+        display: flex;
+        font-size: 0.875rem;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        height: 32px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      main .main-header a.full {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+      }
+
+      main .main-header h2 {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+      }
+
+      main .main-header h2 span {
+        font-weight: normal;
+      }
+
+      main .main-iframe {
+        border: 3px solid #10264c;
+        border: 12px solid #e4e4e4;
+        border: 1px solid #ddd;
+        position: relative;
+        width: calc(100vw - 62px);
+        /* 104px + 32px */
+        height: calc(100vh - 168px);
+        /* 72px + 24px + 54px + 40px + 24px */
+        margin: 0 auto;
+        /* padding: 16px; */
+        background: #e9e9e9;
+      }
+
+      main .main-iframe iframe {
+        position: absolute;
+        height: calc(100vh - 170px);
+        /* 86px + 32px + 54px + 48px + 32px */
+        /* width: calc(100vw - 82px); */
+        /* left: 16px;
+      right: 16px;
+      top: 16px;
+      bottom: 16px; */
+        border: none;
+      }
+
+      main .main-footer {
+        color: #707070;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        height: 40px;
+        position: relative;
+        margin: 0 20px;
+        width: calc(100% - 40px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      main .main-footer .footer-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        opacity: 0.75;
+      }
+
+      main .main-footer .footer-right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        opacity: 0.75;
+      }
+
+      main .main-footer .footer-right a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

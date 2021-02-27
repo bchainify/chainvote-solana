@@ -1,0 +1,51 @@
+{
+  "name": "@decentology/dappstarter-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Nest TypeScript starter repository",
+  "license": "MIT",
+  "contributors": [
+    "Jonathan Sheely <jon@decentology.com> https://www.decentology.com",
+    "Nik Kalyani <nik@decentology.com> https://www.decentology.com"
+   ],
+    "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "nest start",
+    "dev": "wait-on ../dapplib/src/dapp-config.json && nest start --exec ts-node-dev --watch --preserveWatchOutput",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@decentology/dappstarter-dapplib": "^0.1.0",
+    "@nestjs/common": "^7.0.1",
+    "@nestjs/core": "^7.0.1",
+    "@nestjs/platform-express": "^7.0.1",
+    "@nestjs/swagger": "^4.4.0",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^6.5.4",
+    "swagger-ui-express": "^4.1.3"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^7.0.0",
+    "@nestjs/schematics": "^7.0.0",
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.1",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.3",
+    "wait-on": "^4.0.2"
+  }
+}

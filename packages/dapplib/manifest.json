@@ -1,0 +1,9 @@
+{
+    "name": "Bchainify Chainvote",
+    "blocks": {
+        "/blockchain/solana": true,
+        "/blockchain/solana/rust": true,
+        "/framework/react": true,
+        "/category/examples/hello_dev": true
+    }
+}
