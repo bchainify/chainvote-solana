@@ -32,7 +32,7 @@ Solana error handling and debugging on Windows platform.  This was resolved by u
 
 # Video Demo
 
-[Bchainify Chainvote on Solana] (https://www.youtube.com/watch?v=ZTe1iIL50yI&feature=emb_logo)
+* [Bchainify Chainvote on Solana](https://www.youtube.com/watch?v=ZTe1iIL50yI&feature=emb_logo)
 
 # Screenshots
 
