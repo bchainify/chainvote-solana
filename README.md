@@ -17,7 +17,7 @@ Companies are responsible for having appropriate governance structures that serv
 #### INNOVATIVE: Replacement for antiquated procedures, increased participation, and significant cost savings
 
 ******
-#Product Whiteboard Design
+# Product Whiteboard Design
 
 <img src="https://github.com/bchainify/chainvote-solana/blob/main/mktg/bchainify-chainvote-cg-product-roadmap.png" width="100%" height="100%">
 
