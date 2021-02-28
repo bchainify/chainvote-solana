@@ -49,7 +49,7 @@ Solana error handling and debugging on Windows platform.  This was resolved by u
 * Kristine Mallari - kristine@bchainify.org
 * Hakeem Oréwọlé - yorewole@bchainify.org
 * Tevo Saks - tevo@bchainify.org
-* Marlene Veum - marlene.veum@bchainify.org
+* Marlene Veum - marlene@bchainify.org
 
 # Pre-requisites
 
