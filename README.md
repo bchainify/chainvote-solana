@@ -38,10 +38,6 @@ Solana error handling and debugging on Windows platform.  This was resolved by u
 * Decentology Dapp Builder
 * Project Github - https://github.com/bchainify/chainvote-solana 
 
-# Video Demo
-
-##[Bchainify Chainvote on Solana](https://www.youtube.com/watch?v=ZTe1iIL50yI&feature=emb_logo)
-
 # Screenshots
 
 [Design content] (https://github.com/bchainify/chainvote-solana/tree/main/mktg)
