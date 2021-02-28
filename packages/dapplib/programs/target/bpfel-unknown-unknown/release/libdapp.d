@@ -1,1 +1,1 @@
-/mnt/c/repos/happy-julyee/packages/dapplib/programs/target/bpfel-unknown-unknown/release/libdapp.rlib: /mnt/c/repos/happy-julyee/packages/dapplib/programs/src/lib.rs
+/home/abhir/chainvote-solana/packages/dapplib/programs/target/bpfel-unknown-unknown/release/libdapp.rlib: /home/abhir/chainvote-solana/packages/dapplib/programs/src/lib.rs
