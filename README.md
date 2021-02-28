@@ -23,7 +23,7 @@ Companies are responsible for having appropriate governance structures that serv
 
 # Challenges we ran into
 
-Solana error handling and debugging on Windows platform.  This was resolved by using Linux.
+Solana error handling and debugging on Windows platform.  This was resolved by using Linux.  Also, first time using Solana rust smart contract.
 
 # Technologies we used
 
