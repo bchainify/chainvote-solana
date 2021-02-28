@@ -40,11 +40,11 @@ Solana error handling and debugging on Windows platform.  This was resolved by u
 
 # Screenshots
 
-[Design content] (https://github.com/bchainify/chainvote-solana/tree/main/mktg)
+[Design content](https://github.com/bchainify/chainvote-solana/tree/main/mktg)
 
 # Team Members
 
-* Abhir Elandasserry - abhir1234@gmail.com
+* Abhir Elandasserry - abhir1234@bchainify.org
 * Prasad Kumkar - prasad@bchainify.org
 * Kristine Mallari - kristine@bchainify.org
 * Hakeem Oréwọlé - yorewole@bchainify.org
