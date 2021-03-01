@@ -2,6 +2,10 @@
 
 [Bchainify Chainvote on Solana](https://www.youtube.com/watch?v=KT5GeZ5lXjU)
 
+#[Project Demo](https://www.youtube.com/watch?v=3HgVMl-DlsQ)
+
+Try it out here: http://144.202.72.207:3000/login
+
 # Project Wiki
 [Bchainify Chainvote on Solana Project Site](https://github.com/bchainify/chainvote-solana/wiki)
 
@@ -54,7 +58,7 @@ Solana error handling and debugging on Windows platform.  This was resolved by u
 * Tevo Saks - tevo@bchainify.org
 * Marlene Veum - marlene@bchainify.org
 
-# Pre-requisites
+# Development Work Pre-requisites
 
 In order to develop and build "My Dapp," the following pre-requisites must be installed:
 
