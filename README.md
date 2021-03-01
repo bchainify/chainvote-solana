@@ -6,7 +6,7 @@
 
 Try it out here: http://144.202.72.207:3000/login
 
-[Project Github Frontend](https://github.com/bchainify/chainvote-sol-frontend)and [Project Github SOL Smart Contract](https://github.com/bchainify/chainvote-solana-contract)
+[Project Github Frontend](https://github.com/bchainify/chainvote-sol-frontend) and [Project Github SOL Smart Contract](https://github.com/bchainify/chainvote-solana-contract)
 
 # Project Wiki
 [Bchainify Chainvote on Solana Project Site](https://github.com/bchainify/chainvote-solana/wiki)
