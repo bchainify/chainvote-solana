@@ -31,7 +31,7 @@ Solana error handling and debugging on Windows platform.  This was resolved by u
 
 # Technologies we used
 
-* Figma Wireframes UI/UX Design - https://www.figma.com/file/R7kt20BSByK42YVQi0cL3E/Chainvote-Browser-Application?node-id=0%3A1
+* [Figma Wireframes UI/UX Design](https://www.figma.com/file/R7kt20BSByK42YVQi0cL3E/Chainvote-Browser-Application?node-id=0%3A1)
 * Microsoft Whiteboard for User Story Flowchart UML activity diagrams
 * Visual Studio Code
 * NodeJS
