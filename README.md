@@ -1,6 +1,6 @@
 # Project Video
 
-[Bchainify Chainvote on Solana](https://www.youtube.com/watch?v=ZTe1iIL50yI&feature=emb_logo)
+[Bchainify Chainvote on Solana](https://www.youtube.com/watch?v=KT5GeZ5lXjU)
 
 # Project Wiki
 [Bchainify Chainvote on Solana Project Site](https://github.com/bchainify/chainvote-solana/wiki)
