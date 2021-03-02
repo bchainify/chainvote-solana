@@ -6,7 +6,7 @@
 
 #[Project Demo](https://www.youtube.com/watch?v=3HgVMl-DlsQ)
 
-Try it out here: http://144.202.72.207:3000/login
+Try the Live App Demo: https://bchainify-chainvote-solana.netlify.app/login
 
 [Project Github Frontend](https://github.com/bchainify/chainvote-sol-frontend) and [Project Github SOL Smart Contract](https://github.com/bchainify/chainvote-solana-contract)
 
